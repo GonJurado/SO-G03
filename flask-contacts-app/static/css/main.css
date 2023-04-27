@@ -14,7 +14,7 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .bg-dark{
-  color: #169ae1;
+  background-color: #169ae1;
 }
 .table td, .table th {
   color: white;
