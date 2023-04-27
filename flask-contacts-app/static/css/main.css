@@ -27,7 +27,7 @@ body {
   padding-top: 10px;
   align-self: center;
 }
-.navbar.navbar-dark.bg-dark{
+.navbar.navbar-dark.bg-dark span{
   padding-top: 10px;
 }
 .navbar-brand-img {
