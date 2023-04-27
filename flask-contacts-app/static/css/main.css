@@ -18,7 +18,7 @@ body {
   font-size: 16px;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
-  line-height: 2;
+  line-height: 1.5;
 }
 .navbar-brand-img {
   height: 50px;
@@ -36,4 +36,7 @@ body {
 .card.card-body {
   margin-left: 45px;
   margin-right: -65px;
+}
+.table td a .btn{
+  padding-bottom: 5px;
 }
