@@ -1,26 +1,32 @@
 /* https://uigradients.com/*/
 
 body {
-  background: #2980b9; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c3e50,
-    #2980b9
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c3e50,
-    #2980b9
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Times New Roman', Times, serif;
+  background-image: url('../IMG/background.png');
+  background-size: cover;
+}
+
+.bg-dark{
+  background-color: #169ae1!important;
 }
 .table td, .table th {
   color: white;
-  align-items: center;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+.table td{
+  align-self: center;
+}
+.navbar.navbar-dark.bg-dark span, .navbar.navbar-dark.bg-dark span a{
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
 }
 .navbar-brand-img {
   height: 50px;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .navbar-brand span {
   font-size: 28px;
@@ -30,4 +36,11 @@ body {
 .integrante-img {
   width: 200px;
   height: 200px;
+}
+.card.card-body {
+  margin-left: 45px;
+  margin-right: -65px;
+}
+.table td a.btn{
+  margin-bottom: 5px;
 }
