@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Times New Roman', Times, serif;
-  background-image: url('IMG/background.png'); /* fallback for old browsers */
+  background-image: url('img/background.png'); /* fallback for old browsers */
   background-size: cover;
   
 }
