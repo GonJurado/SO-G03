@@ -29,6 +29,7 @@ body {
 }
 .navbar.navbar-dark.bg-dark span{
   padding-top: 10px;
+  font-size: 20px;
 }
 .navbar-brand-img {
   height: 50px;
