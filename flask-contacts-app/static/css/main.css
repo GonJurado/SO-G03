@@ -25,7 +25,7 @@ body {
   vertical-align: middle;
 }
 .table td{
-  padding-right: 20px;
+  margin-right: 20px;
   align-self: center;
 }
 .navbar.navbar-dark.bg-dark span, .navbar.navbar-dark.bg-dark span a{
