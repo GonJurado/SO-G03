@@ -27,9 +27,9 @@ body {
   padding-top: 10px;
   align-self: center;
 }
-.text-white h4{
+.navbar.navbar-dark.bg-dark span{
   padding-top: 10px;
-  font-size: 20px;
+  font-size: 30px;
 }
 .navbar-brand-img {
   height: 50px;
