@@ -2,18 +2,21 @@
 
 body {
   font-family: 'Times New Roman', Times, serif;
-  background: rgba(41, 128, 185, 0.5) url("img/background.png") no-repeat; /* fallback for old browsers */
+  background: #2980b9; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #2c3e50,
     #2980b9
-  ) a; /* Chrome 10-25, Safari 5.1-6 */
+  ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #2c3e50,
     #2980b9
-  ) a; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("img/background.png");
+  opacity: 0.5;
 }
+
 .bg-dark{
   background-color: #169ae1!important;
 }
