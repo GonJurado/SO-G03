@@ -17,6 +17,7 @@ body {
   color: white;
   font-size: 16px;
   font-family: 'Times New Roman', Times, serif;
+  text-align: center;
 }
 .navbar-brand-img {
   height: 50px;
@@ -33,5 +34,5 @@ body {
 }
 .card.card-body {
   margin-left: 45px;
-  margin-right: 20px;
+  margin-right: -65px;
 }
