@@ -21,8 +21,10 @@ body {
   line-height: 1.5;
 }
 .table td{
-  padding-top: 10px;
-  align-self: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .navbar-brand-img {
   height: 50px;
