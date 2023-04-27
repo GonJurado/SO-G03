@@ -22,7 +22,7 @@ body {
 }
 .table td{
   padding-top: 10px;
-  padding-bottom: 10px;
+  align-self: center;
 }
 .navbar-brand-img {
   height: 50px;
