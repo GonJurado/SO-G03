@@ -3,6 +3,8 @@
 body {
   font-family: 'Times New Roman', Times, serif;
   background: #2980b9; /* fallback for old browsers */
+  background-image: url("background.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
   background: -webkit-linear-gradient(
     to right,
     #2c3e50,
