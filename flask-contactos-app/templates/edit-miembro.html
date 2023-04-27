@@ -1,0 +1,49 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <style>
+  h1 {
+    font-size: 36px;
+    color: white;
+  }
+    input[type="text"], input[type="date"], input[type="number"] {
+  font-size: 24px;
+  color: white;
+    }
+
+  </style>
+  <h1>Edit member</h1>
+  {% if miembro %}
+  <form action="/update/{{ miembro.0 }}" method="POST">
+    <div class="form-group">
+      <label for="nombre" class="h3 text-white">Nombre</label>
+      <input type="text" class="form-control" id="nombre" name="nombre" value="{{ miembro.1 }}">
+    </div>
+    <div class="form-group">
+      <label for="apellido"class="h3 text-white">Apellido</label>
+      <input type="text" class="form-control" id="apellido" name="apellido" value="{{ miembro.2}}">
+    </div>
+    <div class="form-group">
+      <label for="fecha"class="h3 text-white">Fecha</label>
+      <input type="date" class="form-control" id="fecha" name="fecha" value="{{ miembro.3 }}">
+    </div>
+    <div class="form-group">
+      <label for="origen"class="h3 text-white">Origen</label>
+      <input type="text" class="form-control" id="origen" name="origen" value="{{ miembro.4 }}">
+    </div>
+    <div class="form-group">
+      <label for="aeropuerto"class="h3 text-white">Aeropuerto</label>
+      <input type="text" class="form-control" id="aeropuerto" name="aeropuerto" value="{{ miembro.5 }}">
+    </div>
+    <div class="form-group">
+      <label for="destino"class="h3 text-white">Destino</label>
+      <input type="text" class="form-control" id="destino" name="destino" value="{{ miembro.6 }}">
+    </div>
+    <div class="form-group">
+      <label for="precio"class="h3 text-white">Precio</label>
+      <input type="number" class="form-control" id="precio" name="precio" value="{{ miembro.7 }}">
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+  </form>
+  {% endif %}
+{% endblock %}
