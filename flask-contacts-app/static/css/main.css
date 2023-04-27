@@ -31,3 +31,6 @@ body {
   width: 200px;
   height: 200px;
 }
+.card.card-body {
+  margin-left: 8px;
+}
