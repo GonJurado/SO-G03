@@ -2,13 +2,13 @@
 
 body {
   font-family: 'Times New Roman', Times, serif;
-  background: #2980b9; /* fallback for old browsers */
-  background: url("img/background.png") -webkit-linear-gradient(
+  background: rgba(41, 128, 185, 0.5) url("img/background.png") no-repeat; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
     to right,
     #2c3e50,
     #2980b9
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: url("img/background.png") linear-gradient(
+  background: linear-gradient(
     to right,
     #2c3e50,
     #2980b9
