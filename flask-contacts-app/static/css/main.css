@@ -12,11 +12,12 @@ body {
     #2c3e50,
     #2980b9
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-family: 'Times New Roman', Times, serif;
 }
 .table td, .table th {
   color: white;
-  align-items: center;
+  margin: auto;
+  font-size: 16cm;
+  font-family: 'Times New Roman', Times, serif;
 }
 .navbar-brand-img {
   height: 50px;
