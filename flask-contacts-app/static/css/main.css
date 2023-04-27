@@ -14,6 +14,10 @@ body {
     #2980b9
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+body::before{
+  background-image: url("background.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .bg-dark{
   background-color: #169ae1!important;
 }
@@ -25,7 +29,6 @@ body {
   vertical-align: middle;
 }
 .table td{
-  margin: 20px;
   align-self: center;
 }
 .navbar.navbar-dark.bg-dark span, .navbar.navbar-dark.bg-dark span a{
