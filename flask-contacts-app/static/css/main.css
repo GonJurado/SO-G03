@@ -22,11 +22,11 @@ body {
   font-size: 16px;
   text-align: center;
   line-height: 1.5;
+  word-wrap: break-word;
 }
 .table td{
   padding-top: 10px;
   align-self: center;
-  gap: 20px;
 }
 .navbar.navbar-dark.bg-dark span, .navbar.navbar-dark.bg-dark span a{
   padding-top: 10px;
