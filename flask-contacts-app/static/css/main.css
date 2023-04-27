@@ -22,9 +22,7 @@ body {
 }
 .table td{
   padding-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  align-self: center;
 }
 .navbar-brand-img {
   height: 50px;
