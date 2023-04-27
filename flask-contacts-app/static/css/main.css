@@ -14,11 +14,13 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .table td, .table th {
+  display: flex;
+  justify-content: center;
   color: white;
   font-size: 16px;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 .navbar-brand-img {
   height: 50px;
