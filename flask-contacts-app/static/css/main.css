@@ -17,6 +17,7 @@ body {
 }
 .table td, .table th {
   color: white;
+  align-items: center;
 }
 .navbar-brand-img {
   height: 50px;
