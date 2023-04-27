@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Times New Roman', Times, serif;
-  background: #2980b9; /* fallback for old browsers */
+  background-image: url('../IMG/background.png');
   background: -webkit-linear-gradient(
     to right,
     #2c3e50,
