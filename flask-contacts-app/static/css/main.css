@@ -14,8 +14,6 @@ body {
     #2980b9
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-image: url("background.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .bg-dark{
   background-color: #169ae1!important;
