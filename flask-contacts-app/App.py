@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 # MySQL connection
-app.config['MYSQL_HOST'] = '3.86.242.195'
+app.config['MYSQL_HOST'] = '44.211.143.40'
 app.config['MYSQL_USER'] = 'support'
 app.config['MYSQL_PASSWORD'] = 'cub'
 app.config['MYSQL_DB'] = 'socrud'

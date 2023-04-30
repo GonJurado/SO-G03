@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\gonzalo\Documents\GitHub\SO-G03\flask-contacts-app\soapp"
+VIRTUAL_ENV="C:\Users\cuatr\OneDrive\Documentos\GitHub\SO-G03\flask-contacts-app\soapp"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

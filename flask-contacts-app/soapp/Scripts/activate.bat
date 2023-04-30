@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\gonzalo\Documents\GitHub\SO-G03\flask-contacts-app\soapp
+set VIRTUAL_ENV=C:\Users\cuatr\OneDrive\Documentos\GitHub\SO-G03\flask-contacts-app\soapp
 
 if not defined PROMPT set PROMPT=$P$G
 
